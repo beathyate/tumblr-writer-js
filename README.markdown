@@ -8,13 +8,13 @@ Example using div elements:
     <html>
     	<head>
     	  <meta charset="utf-8" />
-    	  <script src="jquery-1.3.2.min.js"></script>
+    	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     	  <script src="jquery.tumblrWriter.js"></script>
     	  <script>
     	    $(document).ready(function() {
 
             $("#posts").writeTumblelog({
-              tumblrUrl: 'demo.tumblr.com'
+              tumblrUrl: 'blog.diegomolina.pe'
             });
 
     	    });
@@ -33,13 +33,13 @@ Example using list elements:
     <html>
     	<head>
     	  <meta charset="utf-8" />
-    	  <script src="jquery-1.3.2.min.js"></script>
+    	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     	  <script src="jquery.tumblrWriter.js"></script>
     	  <script>
     	    $(document).ready(function() {
 
             $("#posts").writeTumblelog({
-              tumblrUrl: 'demo.tumblr.com',
+              tumblrUrl: 'blog.diegomolina.pe',
               post: '<li class="post"></li>'
             });
 
