@@ -146,7 +146,7 @@ $.fn.writeTumblelog.defaults = {
   type: null,
   
   // post container elements
-  post: '<div class="post"></div>',
+  post: '<article></article>',
   meta: '<div class="meta"></div>',
   data: '<div class="data"></div>',
   
@@ -163,7 +163,7 @@ $.fn.writeTumblelog.defaults = {
   shortMonths: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
   
   // regular post options
-  regularTitle: '<h2></h2>',
+  regularTitle: '<h1></h1>',
   regularBody: '<div></div>',
   
   // photo post options
@@ -182,7 +182,7 @@ $.fn.writeTumblelog.defaults = {
   linkDescription: '<p class="caption"></p>',
   
   // conversation post options
-  conversationTitle: '<h2></h2>',
+  conversationTitle: '<h1></h1>',
   conversationContainer: '<dl></dl>',
   conversationLabel: '<dt></dt>',
   conversationPhrase: '<dd></dd>',
